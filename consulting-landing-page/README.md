@@ -68,10 +68,48 @@ Framer Motion animations are configured inline. Adjust the `fadeInUp` and `stagg
 
 ## Deployment
 
-This Next.js app can be deployed to:
-- Vercel (recommended)
-- Netlify
-- Any platform supporting Node.js
+### Quick Deploy to Vercel (Recommended - 2 Minutes)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ONEEYE10/website-builder-setup/tree/claude/build-landing-page-consulting-business/consulting-landing-page)
+
+**Steps:**
+1. Click the "Deploy with Vercel" button above
+2. Sign in with GitHub (or create a free Vercel account)
+3. Click "Deploy"
+4. Wait ~2 minutes for deployment
+5. Get your live URL (e.g., `https://your-project.vercel.app`)
+
+### Alternative: Deploy to Netlify
+
+1. Push your code to GitHub
+2. Go to [netlify.com](https://netlify.com)
+3. Click "Add new site" → "Import an existing project"
+4. Connect your GitHub repository
+5. Set build command: `npm run build`
+6. Set publish directory: `.next`
+7. Click "Deploy"
+
+### Manual Deployment
+
+This Next.js app can be deployed to any platform supporting Node.js:
+- **Vercel** (recommended for Next.js)
+- **Netlify**
+- **Railway**
+- **DigitalOcean**
+- **AWS/Azure/GCP**
+
+### Viewing the Site Locally
+
+If you want to view the site on your local machine:
+
+```bash
+cd consulting-landing-page
+npm install
+npm run build
+npm start
+```
+
+Then open http://localhost:3000 in your browser.
 
 ## License
 
