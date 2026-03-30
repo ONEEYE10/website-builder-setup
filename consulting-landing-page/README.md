@@ -68,16 +68,29 @@ Framer Motion animations are configured inline. Adjust the `fadeInUp` and `stagg
 
 ## Deployment
 
-### Quick Deploy to Vercel (Recommended - 2 Minutes)
+### ⚠️ One-Click Deploy Not Working? (See Fix Below)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ONEEYE10/website-builder-setup/tree/claude/build-landing-page-consulting-business/consulting-landing-page)
+The one-click button has issues with subdirectories. Use this instead:
 
-**Steps:**
-1. Click the "Deploy with Vercel" button above
-2. Sign in with GitHub (or create a free Vercel account)
-3. Click "Deploy"
-4. Wait ~2 minutes for deployment
-5. Get your live URL (e.g., `https://your-project.vercel.app`)
+### Quick Deploy to Vercel (Manual - 3 Minutes)
+
+**Go to: https://vercel.com/new**
+
+1. Click "Import Git Repository"
+2. Select: `ONEEYE10/website-builder-setup`
+3. **IMPORTANT**: Set "Root Directory" to `consulting-landing-page`
+4. Click "Deploy"
+5. Get your live URL in ~2 minutes!
+
+### Alternative: Vercel CLI (Even Faster)
+
+```bash
+npm i -g vercel
+cd consulting-landing-page
+vercel
+```
+
+Just press Enter for all prompts - you'll get your URL immediately!
 
 ### Alternative: Deploy to Netlify
 
